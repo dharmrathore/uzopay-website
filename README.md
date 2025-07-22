@@ -161,3 +161,4 @@ Created as a senior UI developer task implementation.
 ---
 
 **Note**: This is a pixel-perfect recreation of the provided design with modern React best practices and responsive design principles.
+# uzopay-website
