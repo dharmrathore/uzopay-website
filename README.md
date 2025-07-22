@@ -1,46 +1,163 @@
-# Getting Started with Create React App
+# UzOPay Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive fintech website built with React and TypeScript, featuring a sleek dark theme with purple/blue accents and futuristic AI banking interface.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- **Pixel-Perfect Design**: Matches the provided design exactly with precise spacing, colors, and typography
+- **Responsive Layout**: Optimized for mobile, tablet, and desktop screens
+- **Modern Animations**: Smooth transitions and hover effects using GSAP and Framer Motion
+- **Interactive Elements**: Hover states, button animations, and floating labels
+- **Cross-Browser Compatible**: Works on Chrome, Firefox, Edge, and Safari
+- **TypeScript**: Full type safety and better development experience
 
-### `npm start`
+## 🎨 Design Elements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Dark Theme**: Deep blue-black background (#0A0A1A) with subtle geometric patterns
+- **Color Palette**: Purple (#8b5cf6) and blue (#6366f1) accents with white text
+- **Typography**: Inter font family for modern, clean appearance
+- **Robot Illustration**: Animated AI head with glowing eyes and rotating core
+- **Floating Labels**: Interactive elements around the robot illustration
+- **Gradient Buttons**: Primary and secondary call-to-action buttons
+- **Quick Start Card**: SDK sections with active states and flow indicators
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🛠️ Technologies Used
 
-### `npm test`
+- **React 19** with TypeScript
+- **GSAP** for advanced animations
+- **Framer Motion** for smooth transitions
+- **Lucide React** for icons
+- **CSS3** with modern features (backdrop-filter, gradients, animations)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📦 Installation
 
-### `npm run build`
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd uzopay-website
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Start the development server**
+   ```bash
+   npm start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-### `npm run eject`
+## 🏗️ Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+src/
+├── components/
+│   ├── Header.tsx          # Navigation bar with logo and menu
+│   ├── HeroSection.tsx     # Main hero section with robot illustration
+│   ├── MidSection.tsx      # Secondary content section
+│   └── QuickStartCard.tsx  # SDK quick start card
+├── App.tsx                 # Main application component
+├── App.css                 # Comprehensive styling
+└── index.css              # Global styles and font imports
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🎯 Key Components
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Header
+- Fixed navigation bar with backdrop blur effect
+- UzOPay logo with gradient border
+- Navigation links with active states
+- Dropdown indicator for "Ai Banking"
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Hero Section
+- Main headline: "End-to-End Payout & Payroll Solutions for Digital Era"
+- Call-to-action buttons with hover effects
+- Animated robot illustration with glowing eyes
+- Floating labels for key features
 
-## Learn More
+### Mid Section
+- Secondary content with "Simplify the payments process"
+- Animated line graph showing growth/efficiency
+- Consistent styling with hero section
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Quick Start Card
+- SDK sections with active states
+- Programming languages placeholder
+- Flow indicators connecting sections
+- Glassmorphism design with backdrop blur
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🎨 Styling Features
+
+- **CSS Grid & Flexbox**: Modern layout techniques
+- **CSS Custom Properties**: Consistent color management
+- **Animations**: Keyframe animations for floating elements
+- **Responsive Design**: Mobile-first approach with breakpoints
+- **Glassmorphism**: Backdrop blur effects for modern UI
+- **Gradients**: Linear and radial gradients for depth
+
+## 📱 Responsive Breakpoints
+
+- **Desktop**: 1024px and above
+- **Tablet**: 768px - 1023px
+- **Mobile**: Below 768px
+
+## 🚀 Deployment
+
+### Build for Production
+```bash
+npm run build
+```
+
+### Deploy to Vercel (Recommended)
+1. Install Vercel CLI: `npm i -g vercel`
+2. Run: `vercel`
+3. Follow the prompts to deploy
+
+### Deploy to Netlify
+1. Build the project: `npm run build`
+2. Drag the `build` folder to Netlify
+3. Configure custom domain if needed
+
+## 🔧 Development
+
+### Available Scripts
+
+- `npm start` - Start development server
+- `npm run build` - Build for production
+- `npm test` - Run tests
+- `npm run eject` - Eject from Create React App
+
+### Code Style
+
+- TypeScript for type safety
+- Functional components with hooks
+- CSS modules for component styling
+- Consistent naming conventions
+
+## 🐛 Known Issues
+
+- Backdrop-filter may not work in older browsers (Safari 9+ supported)
+- Some animations may be reduced on devices with `prefers-reduced-motion`
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 👨‍💻 Author
+
+Created as a senior UI developer task implementation.
+
+---
+
+**Note**: This is a pixel-perfect recreation of the provided design with modern React best practices and responsive design principles.
