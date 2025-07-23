@@ -10,7 +10,7 @@
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: #0A0A1A;
+    background: linear-gradient(135deg, #0d0c1d 0%, #1c0b2b 100%);
     color: #ffffff;
     overflow-x: hidden;
   }
@@ -141,3 +141,10 @@
            transition: transform 0.3s ease;
          }
        }
+.heading-title{
+  background: linear-gradient(90deg, #FFFFFF 0%, rgba(189, 160, 255, 0.5) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
