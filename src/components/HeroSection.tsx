@@ -13,14 +13,12 @@ const HeroSection: React.FC = () => {
           </div>
 
           {/* Headline */}
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl heading-title font-medium leading-tight text-white">
-            End-to-End Payout & Payroll
-            
-            <span className="text-white">Solutions for Digital Era.</span>
+          <h1 className="text-4xl sm:text-5xl lg:text-[55px] heading-title font-medium leading-tight text-white">
+            End-to-End Payout & Payroll Solutions for Digital Era.
           </h1>
 
           {/* Description */}
-          <p className="text-lg sm:text-xl text-gray-400 leading-relaxed max-w-2xl">
+          <p className="text-lg  text-[#B5B0B7] leading-relaxed max-w-2xl">
             Optimize transactions and payouts with our secure, efficient payment gateway solution, ensuring smooth operations.
           </p>
 
@@ -37,7 +35,7 @@ const HeroSection: React.FC = () => {
 
         {/* Right Content - Robot Illustration */}
         <div className="relative flex justify-center items-center">
-          <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96">
+          <div className="relative">
             {/* Robot Head */}
             <img src="/images/roboto.png" alt="Robot Eye" className=""  />
 

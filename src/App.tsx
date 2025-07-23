@@ -22,7 +22,7 @@ function App() {
       <Header />
       
       {/* Original UzOPay Design */}
-      <main className="pt-20 max-w-7xl mx-auto px-8 lg:px-12">
+      <main className="pt-20 max-w-full w-full mx-auto px-8 lg:px-12">
         <HeroSection />
         <div className="grid lg:grid-cols-2 gap-16 py-16">
           <MidSection />

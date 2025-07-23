@@ -12,33 +12,30 @@ const DemoSection: React.FC = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
         {/* Top Section - Hero Area */}
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-24">
+        <div className="grid lg:grid-cols-1 gap-12 lg:gap-16 items-center mb-24">
           {/* Left Content */}
-          <div className="space-y-8">
+          
             {/* Glowing Headline */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight">
               <span className="text-white drop-shadow-[0_0_20px_rgba(139,92,246,0.5)]">
                 We focus on your finances,
-              </span>
-              <br />
-              <span className="text-white drop-shadow-[0_0_20px_rgba(139,92,246,0.5)]">
+              
                 you focus on what matters
-              </span>
-              <br />
-              <span className="text-white drop-shadow-[0_0_20px_rgba(139,92,246,0.5)]">
+              
                 most.
               </span>
+                <p className="text-xl sm:text-2xl text-gray-400 leading-relaxed">
+              Your finance our
+              
+              pride, Always Safe &
+              
+              Reliable.
+            </p>
             </h1>
 
             {/* Sub-headline */}
-            <p className="text-xl sm:text-2xl text-gray-400 leading-relaxed">
-              Your finance our
-              <br />
-              pride, Always Safe &
-              <br />
-              Reliable.
-            </p>
-          </div>
+          
+          
 
           {/* Right side - Empty for clean design */}
           <div className="hidden lg:block"></div>
@@ -111,75 +108,7 @@ const DemoSection: React.FC = () => {
 
           {/* Right Content - Hexagonal Graphics */}
           <div className="relative">
-            <div className="grid grid-cols-3 gap-4 lg:gap-6">
-              {/* Hexagon 1 - Line Graph */}
-              <div className="hexagon bg-gray-800/50 border border-gray-700/50 backdrop-blur-sm">
-                <div className="flex flex-col items-center justify-center p-4">
-                  <TrendingUp className="text-white mb-2" size={24} />
-                  <div className="flex items-center gap-1">
-                    <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-                    <div className="w-2 h-2 bg-white rounded-full"></div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Hexagon 2 - Chain Link */}
-              <div className="hexagon bg-gray-800/50 border border-gray-700/50 backdrop-blur-sm">
-                <div className="flex items-center justify-center p-4">
-                  <Link className="text-white" size={24} />
-                </div>
-              </div>
-
-              {/* Hexagon 3 - Network */}
-              <div className="hexagon bg-gray-800/50 border border-gray-700/50 backdrop-blur-sm">
-                <div className="flex items-center justify-center p-4">
-                  <div className="grid grid-cols-2 gap-1">
-                    <div className="w-2 h-2 bg-white rounded-full"></div>
-                    <div className="w-2 h-2 bg-white rounded-full"></div>
-                    <div className="w-2 h-2 bg-white rounded-full"></div>
-                    <div className="w-2 h-2 bg-white rounded-full"></div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Hexagon 4 - Refresh Loop (with blue glow) */}
-              <div className="hexagon bg-gray-800/50 border border-primary-500/30 backdrop-blur-sm shadow-glow">
-                <div className="flex flex-col items-center justify-center p-4">
-                  <RefreshCw className="text-white mb-2" size={24} />
-                  <div className="flex items-center gap-1">
-                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                    <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Hexagon 5 - Clock */}
-              <div className="hexagon bg-gray-800/50 border border-gray-700/50 backdrop-blur-sm">
-                <div className="flex flex-col items-center justify-center p-4">
-                  <Clock className="text-white mb-2" size={24} />
-                  <div className="w-3 h-3 bg-purple-600 rounded-sm"></div>
-                </div>
-              </div>
-
-              {/* Hexagon 6 - Document */}
-              <div className="hexagon bg-gray-800/50 border border-gray-700/50 backdrop-blur-sm">
-                <div className="flex flex-col items-center justify-center p-4">
-                  <FileText className="text-white mb-2" size={24} />
-                  <div className="flex flex-col gap-0.5">
-                    <div className="w-4 h-0.5 bg-white rounded"></div>
-                    <div className="w-4 h-0.5 bg-white rounded"></div>
-                    <div className="w-4 h-0.5 bg-white rounded"></div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Hexagon 7 - Arrow */}
-              <div className="hexagon bg-gray-800/50 border border-gray-700/50 backdrop-blur-sm">
-                <div className="flex items-center justify-center p-4">
-                  <ArrowDownRight className="text-white" size={24} />
-                </div>
-              </div>
-            </div>
+     <img src='images/content.png' alt='' width='' height=''/>
           </div>
         </div>
       </div>

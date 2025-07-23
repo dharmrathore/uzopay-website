@@ -5,8 +5,8 @@ const Header: React.FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-dark-950/80 backdrop-blur-md border-b border-primary-500/10 pt-4">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <header className="fixed top-0 left-0 right-0 z-50  pt-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-auto  p-4 px-5 shadow-[0px_4px_6px_-1px_#12121714] backdrop-blur-[80px] border border-[#44C7FC] rounded-[60px]">
           {/* Logo */}
           <div className=" font-bold text-xl text-white ">
