@@ -8,34 +8,31 @@ const DemoSection: React.FC = () => {
       <div className="fixed inset-0 -z-10">
         <div className="absolute inset-0 bg-gradient-radial from-primary-500/10 via-transparent to-transparent"></div>
         <div className="absolute inset-0 bg-gradient-to-br from-transparent via-purple-600/5 to-transparent"></div>
+        <div className="absolute inset-0 bg-glow"></div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
         {/* Top Section - Hero Area */}
         <div className="grid lg:grid-cols-1 gap-12 lg:gap-16 items-center mb-24">
           {/* Left Content */}
-          
+          <div className="space-y-12">
             {/* Glowing Headline */}
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight">
-              <span className="text-white drop-shadow-[0_0_20px_rgba(139,92,246,0.5)]">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold leading-tight">
+              <span className="neon-glow-primary">
                 We focus on your finances,
               
-                you focus on what matters
-              
-                most.
+                you focus on what matters   most.
               </span>
-                <p className="text-xl sm:text-2xl text-gray-400 leading-relaxed">
-              Your finance our
-              
-              pride, Always Safe &
-              
-              Reliable.
-            </p>
+             
+            
+              <span className=" neon-glow-secondary">
+              Your finance our pride, Always Safe & Reliable.
+            </span>
             </h1>
 
             {/* Sub-headline */}
-          
-          
+           
+          </div>
 
           {/* Right side - Empty for clean design */}
           <div className="hidden lg:block"></div>
@@ -101,7 +98,7 @@ const DemoSection: React.FC = () => {
             </div>
 
             {/* Call-to-Action Button */}
-            <button className="btn btn-primary mt-8">
+            <button className="btn btn-primary mt-8 glow-on-hover">
               Get Started <ChevronRight size={16} />
             </button>
           </div>

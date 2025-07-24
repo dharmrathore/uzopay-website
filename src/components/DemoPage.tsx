@@ -10,6 +10,7 @@ const DemoPage: React.FC = () => {
       <div className="fixed inset-0 -z-10">
         <div className="absolute inset-0 bg-gradient-radial from-primary-500/10 via-transparent to-transparent"></div>
         <div className="absolute inset-0 bg-gradient-radial from-purple-600/10 via-transparent to-transparent" style={{ backgroundPosition: '80% 70%' }}></div>
+        <div className="absolute inset-0 bg-glow"></div>
       </div>
 
       {/* Header */}
@@ -17,7 +18,7 @@ const DemoPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16 lg:h-20">
             {/* Logo */}
-            <div className="bg-gradient-to-br from-primary-500/10 to-purple-600/10 border border-primary-500/30 rounded-lg px-4 py-2 font-bold text-xl text-white shadow-glow">
+            <div className="bg-gradient-to-br from-primary-500/10 to-purple-600/10 border border-primary-500/30 rounded-lg px-4 py-2 font-bold text-xl text-white shadow-glow glow-on-hover">
               UzOPay
             </div>
 
@@ -61,22 +62,22 @@ const DemoPage: React.FC = () => {
             {/* Left Content */}
             <div className="space-y-12">
               {/* Glowing Headline */}
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight">
-                <span className="text-white drop-shadow-[0_0_20px_rgba(139,92,246,0.5)]">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-semibold leading-tight">
+                <span className="neon-glow-primary">
                   We focus on your finances,
                 </span>
                 <br />
-                <span className="text-white drop-shadow-[0_0_20px_rgba(139,92,246,0.5)]">
+                <span className="neon-glow-primary">
                   you focus on what matters
                 </span>
                 <br />
-                <span className="text-white drop-shadow-[0_0_20px_rgba(139,92,246,0.5)]">
+                <span className="neon-glow-primary">
                   most.
                 </span>
               </h1>
 
               {/* Sub-headline */}
-              <p className="text-xl sm:text-2xl text-gray-400 leading-relaxed">
+              <p className="text-xl sm:text-2xl neon-glow-secondary leading-relaxed">
                 Your finance our
                 <br />
                 pride, Always Safe &
@@ -148,7 +149,7 @@ payments process
               </div>
 
               {/* Call-to-Action Button */}
-              <button className="btn btn-primary mt-8">
+              <button className="btn btn-primary mt-8 glow-on-hover">
                 Get Started <ChevronRight size={16} />
               </button>
             </div>
