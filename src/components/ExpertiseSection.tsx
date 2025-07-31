@@ -118,8 +118,8 @@ const ExpertiseSection: React.FC = () => {
             <span className="text-gray-400 text-lg font-medium">Our Expertise</span>
             <div className="w-full h-px bg-gradient-to-r from-transparent via-gray-400 to-transparent mt-2"></div>
           </div>
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white drop-shadow-[0_0_20px_rgba(139,92,246,0.5)]">
-            Redefining Payment Processing for You
+          <h2 className="hero-title text-4xl sm:text-5xl lg:text-[55px] heading-title font-medium leading-tight text-white">
+            Redefining Payment <br/> Processing for You
           </h2>
         </div>
 

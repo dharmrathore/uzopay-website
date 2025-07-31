@@ -355,3 +355,20 @@ body {
     background-position: -200% 0;
   }
 }
+.swiper-button-prev:after, .swiper-button-next:after{
+  display: none;
+}
+canvas
+{
+  display: none;
+}
+.swiper-button-prev, .swiper-button-next{
+  width: 40px !important;
+  height: 40px !important;
+}
+main {
+    background-image: url(../public/images/vector.png);
+}
+header {
+    background-image: url(../public/images/blur.png);
+}

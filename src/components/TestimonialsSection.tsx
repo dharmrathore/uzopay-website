@@ -175,7 +175,7 @@ const TestimonialsSection: React.FC = () => {
           </div>
 
           {/* Custom Pagination */}
-          <div className="swiper-pagination flex justify-center items-center space-x-2 mt-6"></div>
+         
         </div>
       </div>
 

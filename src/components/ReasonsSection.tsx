@@ -20,7 +20,7 @@ const ReasonsSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-4">
+          <h2 className="hero-title text-4xl sm:text-5xl lg:text-[55px] heading-title font-medium leading-tight text-white">
             Exceptional Support for Your Success
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
@@ -29,9 +29,9 @@ const ReasonsSection: React.FC = () => {
         </div>
 
         {/* Feature Cards Grid */}
-        <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
+        <div className="flex gap-5 mb-5">
           {/* Card 1: Optimize customer journeys */}
-          <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-8 lg:p-10 shadow-glow hover:shadow-glow-purple transition-all duration-300">
+          <div className="w-1/3 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-8 lg:p-10 shadow-glow hover:shadow-glow-purple transition-all duration-300">
             <div className="space-y-6">
               {/* Visual Element */}
               <div className="relative">
@@ -63,7 +63,7 @@ const ReasonsSection: React.FC = () => {
           </div>
 
           {/* Card 2: Faster Processing Time */}
-          <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-8 lg:p-10 shadow-glow hover:shadow-glow-purple transition-all duration-300">
+          <div className="w-2/3 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-8 lg:p-10 shadow-glow hover:shadow-glow-purple transition-all duration-300">
             <div className="space-y-6">
               {/* Content */}
               <div className="space-y-4">
@@ -94,9 +94,10 @@ const ReasonsSection: React.FC = () => {
               </button>
             </div>
           </div>
-
+        </div>
+        <div className="flex gap-5">
           {/* Card 3: Flexible Solutions */}
-          <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-8 lg:p-10 shadow-glow hover:shadow-glow-purple transition-all duration-300">
+          <div className="w-2/3 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-8 lg:p-10 shadow-glow hover:shadow-glow-purple transition-all duration-300">
             <div className="space-y-6">
               {/* Visual Element - Profile */}
               <div className="relative flex justify-center">
@@ -136,7 +137,7 @@ const ReasonsSection: React.FC = () => {
           </div>
 
           {/* Card 4: Effortless Integration */}
-          <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-8 lg:p-10 shadow-glow hover:shadow-glow-purple transition-all duration-300">
+          <div className="w-1/3 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-8 lg:p-10 shadow-glow hover:shadow-glow-purple transition-all duration-300">
             <div className="space-y-6">
               {/* Content */}
               <div className="space-y-4">
